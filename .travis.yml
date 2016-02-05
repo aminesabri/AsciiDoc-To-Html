@@ -1,0 +1,14 @@
+install:
+- gem install asciidoctor
+script:
+- asciidoctor faq.adoc
+env:
+  global:
+  - GH_REF: aminesabri/TestHtml.git
+
+  - secure: 
+
+
+after_success:
+- bash monscript.sh
+
