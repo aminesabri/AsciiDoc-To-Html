@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #configuration
-git config --global user.email "moghitkacimi@gmail.com"
-git config --global user.name "kacimimoghite"
+git config --global user.email "med.amine.sabri@gmail.com"
+git config --global user.name "aminesabri"
 
  git clone --quiet https://${GH_TOKEN}@github.com/${GH_REF}  master > /dev/null
 
