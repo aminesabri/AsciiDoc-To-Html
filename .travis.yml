@@ -1,3 +1,4 @@
+- sudo: required
 install:
 - gem install asciidoctor
 script:
