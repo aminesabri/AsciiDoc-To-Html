@@ -12,7 +12,7 @@ git clone --quiet https://${GH_TOKEN}@${GH_REF}  master > /dev/null
  git add -f .
  git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to master"
 #git push -fq origin master > /dev/null
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master > /dev/null
+git push --force --quiet https://${GH_TOKEN}@${GH_REF} master > /dev/null
 
  echo -e "Deploy completed\n"
 
