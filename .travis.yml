@@ -4,8 +4,7 @@ script:
 - asciidoctor faq.adoc
 env:
   global:
-  - GH_REF: aminesabri/TestHtml.git
-
+  - GH_REF: github.com/aminesabri/TestHtml.git
   - secure: 6cNTBdLsAKmxZX/HnfYeGfDRhkA1+Lp9a7Xj1Kl921C/9EjRjtzXblFXxaaNTTcZZzy0ppPS7X5dyRLxDwV/ASsbYgSEzsD451cJ17fgxCNSirPeMoXOu8kKWjtWCsmm51K1XnI5LCBauIFSQV5EF6rR7zYEVaY0jn3bkEFD7gaKXO5HnBbrPtX2Hs9EtoNwOBAQQd4fgK6ymEGRuR4yWlHTFXmfHPAtR51dz9UhNIXu0MwZl+JoCqoQe0okvotN+xWmxRP3hizxK66DKHMWtoIeo0iaOdyuBiYI3URm3jTqI35ZSI1CtJbQG3rpbplZrCITXN7Dx0GtygNq2vVyQ9VJ//LlNV+dHWUjDl0nSoWeqtFhAFPCQWPo0CRMzJuo9/ULoTUHdLQXgMZfzc+QTPqF+lxU0CyAQw5VXb/VeQbvjaDxIE6AOEytF9iWkX05+EdHHpRMQvEdetT3tS/jcIlRr85/r6toTJT2xiU2BwgAu3g7YHqDLH8XKqEALued/q4p2DO46eThtnR4O++LmUDsAUhsGXmikMhgA6dRZ+pKmiHyFnngtue1hUpDZdLVFM5ISiOKpldljK7okuqgjVdpoJfEgSzBy6oUjjSHcpu/Nl4XwPp3YQfenljsrL6zBZUepyqNNrIDsm4tliEisAF0XmaqwsOinltJdO+lL5k=
 
 
