@@ -1,5 +1,3 @@
-before_install:
-- sudo: true
 
 install:
 - gem install asciidoctor
