@@ -3,7 +3,7 @@ install:
 - gem install asciidoctor
 
 script:
-- asciidoctor -a numbered faq.adoc -o faq.html
+- asciidoctor -a numbered faq.adoc -o output/faq.html
 
 
 env:
