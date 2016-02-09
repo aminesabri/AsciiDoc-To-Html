@@ -1,10 +1,12 @@
-
 before_install:
-- sudo: required
+- sudo: true
+
 install:
 - gem install asciidoctor
+
 script:
 - asciidoctor faq.adoc
+
 env:
   global:
   - GH_REF: github.com/aminesabri/TestHtml.git
