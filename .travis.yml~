@@ -6,6 +6,7 @@ install:
 
 script:
 - asciidoctor faq.adoc
+
 env:
   global:
   - GH_REF: github.com/aminesabri/TestHtml.git
