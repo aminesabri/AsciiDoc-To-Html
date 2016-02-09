@@ -1,3 +1,5 @@
+
+before_install:
 - sudo: required
 install:
 - gem install asciidoctor
