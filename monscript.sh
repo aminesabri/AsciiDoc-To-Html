@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+
+
+cp -R output $HOME/output
+
 cd $HOME
 
 #configuration
@@ -9,7 +13,9 @@ git config --global push.default simple
 
 git clone --quiet https://${GH_TOKEN}@${GH_REF}  master > /dev/null
 
+cd master
 cp $HOME/output/faq.html ./index.html
+ls -al index.html
 
  #add, commit and push files
  git add -f .
