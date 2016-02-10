@@ -13,7 +13,7 @@ git config --global push.default simple
 
 git clone --quiet https://${GH_TOKEN}@${GH_REF}  gh-pages > /dev/null
 
-cd master
+cd gh-pages
 cp $HOME/output/faq.html ./index.html
 ls -al index.html
 
