@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd $HOME
+
 #configuration
 git config --global user.email "med.amine.sabri@gmail.com"
 git config --global user.name "aminesabri"
