@@ -3,10 +3,11 @@
 #configuration
 git config --global user.email "med.amine.sabri@gmail.com"
 git config --global user.name "aminesabri"
+git config --global push.default simple
 
 git clone --quiet https://${GH_TOKEN}@${GH_REF}  master > /dev/null
 
-
+cd TestHTML
 
  #add, commit and push files
  git add -f .
