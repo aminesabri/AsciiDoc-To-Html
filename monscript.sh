@@ -9,7 +9,7 @@ git config --global push.default simple
 
 git clone --quiet https://${GH_TOKEN}@${GH_REF}  master > /dev/null
 
-touch t.txt
+cp $HOME/output/faq.html ./index.html
 
  #add, commit and push files
  git add -f .
