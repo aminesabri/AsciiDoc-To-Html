@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 
-
 cp -R output $HOME/output
 
 cd $HOME
@@ -21,7 +20,7 @@ ls -al index.html
  git add -f .
  git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to master"
 #git push -fq origin master > /dev/null
- git push -f -q https://${GH_TOKEN}@${GH_REF} gh-pages > /dev/null
+ git push -f -q https://${GH_TOKEN}@${GH_REF} origin gh-pages > /dev/null
 
  echo -e "Deploy completed\n"
 
