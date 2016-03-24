@@ -1,8 +1,12 @@
 install:
 - gem install asciidoctor
+- gem install coderay
+- gem install link-checker
 
 script:
 - asciidoctor -a numbered faq.adoc -o output/faq.html
+#- rake check_links
+#- rake test
 
 
 env:
