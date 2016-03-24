@@ -4,9 +4,10 @@ install:
 - gem install link-checker
 
 script:
-- asciidoctor -a numbered faq.adoc -o output/faq.html
-#- rake check_links
-#- rake test
+#- asciidoctor -a numbered faq.adoc -o output/faq.html
+- asciidoctor -a icons -a linkcss! -a numbered -a imagesdir=images main.asc -o html/faq.html
+- rake check_links
+- rake test
 
 
 env:
